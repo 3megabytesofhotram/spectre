@@ -1,0 +1,15 @@
+:root {
+  --color-bg: #ffffff;
+  --color-text: #222222;
+  --color-accent: #0069d9;      /* change these three in one place later */
+}
+
+html, body {
+  padding: 0;
+  margin: 0;
+  background: var(--color-bg);
+  color: var(--color-text);
+  font-family: system-ui, sans-serif;
+}
+
+a { color: var(--color-accent); text-decoration: none; }

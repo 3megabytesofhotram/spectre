@@ -1,0 +1,33 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: transform 0.3s ease-in-out;
+}
+
+.hide {
+  transform: translateY(-100%);
+}
+
+.banner {
+  background: url("/images/header.jpg") center/cover no-repeat;
+  padding: 4rem 1rem;
+  text-align: center;
+  color: var(--color-bg);
+}
+
+.banner h1 {
+  margin: 0;
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+.nav {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  padding: 0.75rem 1rem;
+  backdrop-filter: blur(4px);
+  background: rgba(255, 255, 255, 0.8);
+  border-bottom: 1px solid #ddd;
+}
